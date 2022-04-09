@@ -2,3 +2,11 @@ curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.
 tar -xzvf elasticsearch-8.1.2-linux-x86_64.tar.gz
 cd elasticsearch-8.1.2
 ./bin/elasticsearch
+
+
+
+Kebana
+curl -L -O https://artifacts.elastic.co/downloads/kibana/kibana-8.1.2-linux-x86_64.tar.gz
+tar xzvf kibana-8.1.2-linux-x86_64.tar.gz
+cd kibana-8.1.2-linux-x86_64/
+./bin/kibana
