@@ -8,6 +8,11 @@ Contact Info: archan.fiem.it@gmail.com, hk.sainaga@gmail.com
 curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.X.X-amd64.deb
 sudo dpkg -i filebeat-7.X.X-amd64.deb
 ```
+for Ubuntu
+```bash
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-8.1.2-linux-x86_64.tar.gz
+tar xzvf filebeat-8.1.2-linux-x86_64.tar.gz
+```
   - Change the filebeat config files at /etc/filebeat/filebeat.yml
   - Start the filebeat service
 ```bash
